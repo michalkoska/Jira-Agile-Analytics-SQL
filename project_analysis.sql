@@ -1,7 +1,7 @@
 /*
 ===============================================================================
 PROJECT: Jira Agile Analytics Simulator
-AUTHOR: Micha³ Koœka
+AUTHOR: Michal Koska
 DESCRIPTION: 
     This script simulates a Jira database environment for a Scrum Team.
     It performs data cleaning, KPI calculation (Velocity, Bug Ratio), 
@@ -165,4 +165,5 @@ SELECT
     RANK() OVER (ORDER BY SUM(story_points) DESC) AS performance_rank
 FROM zadania
 WHERE status = 'Done' AND przypisany_do IS NOT NULL
+
 GROUP BY przypisany_do;
