@@ -33,7 +33,7 @@ The `project_analysis.sql` script generates the following insights:
 
 *(Note: Download the `.pbix` file from this repository to interact with the dashboard, slicers, and tooltips).*
 
-## How to run? ▶️
+## How to run? (SQL) ▶️
 Copy the content of `project_analysis.sql` into any SQL editor (e.g., Azure Data Studio or SSMS) and execute the script. It will automatically create the table structure and populate it with sample data for analysis.
 
 ---
